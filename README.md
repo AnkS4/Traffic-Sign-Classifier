@@ -1,2 +1,2 @@
 # Traffic-Sign-Classifier
-Classifying German Traffic Data
+Classifying German Traffic Sign Data
