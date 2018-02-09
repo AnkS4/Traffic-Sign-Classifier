@@ -90,9 +90,15 @@ My final model consisted of the following layers:
 
 To train the model, I used an EPOCHS of 25, BATCH SIZE of 128, learning rate of 0.002
 
-#### 4. Accuracy Score:
+#### 4. Approach taken for finding solution and Accuracy Score:
 
-My final model results were:
+I used LeNet architecture as it has been widely used for recognizing handwritten digits and gives good accuracy with decent amount of computation power. I think it should give good accuracy for traffic sign recognition with some modifications.
+
+I added two dropout layers, each after Convolution layer in LeNet5.
+
+I started with standard learning rate of 0.001, epochs of 10 and batch size of 256. First, I changed the batch size, keeping other values same as before, I got better accuracy using batch size of 128. Subsequently, after various combinations the learning rate of 0.002 and epochs of 25 gave better accuracy than before.
+
+The accuracy on my final model were:
 * validation set accuracy of 0.939
 * test set accuracy of 0.917
 
