@@ -47,7 +47,7 @@ I decided to generate additional data because ...
 
 To add more data to the the data set, I used the following techniques because ... 
 
-Here is an example of an original image and an augmented image:
+Here is an example of an original image and augmented images:
 
 [image2]: trained0.png "Original Image from training data"
 ![alt text][image2]
@@ -89,3 +89,52 @@ My final model consisted of the following layers:
 |	RELU			    |												|
 |	Fully Connected| outputs 43   			|
 | Softmax				|        									|
+
+#### 3. Hyperparameters:
+
+To train the model, I used an EPOCHS of 25, BATCH SIZE of 128, learning rate of 0.002
+
+#### 4. Accuracy Score:
+
+My final model results were:
+* validation set accuracy of 0.939
+* test set accuracy of 0.917
+
+### Test a Model on New Images
+
+#### 1. German traffic signs I found on the web:
+
+Here are six German traffic signs that I found on the web:
+
+[img1]: img1.jpg "MyTestImage 1"
+![alt text][img1]
+
+[img2]: img2.jpg "MyTestImage 2"
+![alt text][img2]
+
+[img3]: img3.jpg "MyTestImage 3"
+![alt text][img3]
+
+[img4]: img4.jpg "MyTestImage 4"
+![alt text][img4]
+
+[img5]: img5.jpg "MyTestImage 5"
+![alt text][img5]
+
+[img6]: img6.jpg "MyTestImage 6"
+![alt text][img6]
+
+#### 2. Model's predictions on new traffic signs:
+
+Here are the results of the prediction:
+
+| Image			        |     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| Stop Sign      		| Stop sign   									| 
+| No Entry     			| No Entry 							|
+| Speed limit 50km/h| Speed limit 50km/h				|
+| Yield         		| Yield    			 				|
+| Turn left ahead   | Keep right    							|
+| Speed limit 70km/h| Speed limit 70km/h  	|
+
+The model was able to correctly guess 5 of the 6 traffic signs, which gives an accuracy of 83.33%.
