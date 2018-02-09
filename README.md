@@ -41,11 +41,7 @@ I used getAffineTransform() from cv2 to transform the images. I transformed each
 
 Then, I converted the images to grayscale because I thought that the model would not gain a lot knowledge using colors. Also, it would save unnecessary computation power.
 
-As a last step, I normalized the image data because ...
-
-I decided to generate additional data because ... 
-
-To add more data to the the data set, I used the following techniques because ... 
+Then, I normalized the images.
 
 Here is an example of an original image and augmented images:
 
