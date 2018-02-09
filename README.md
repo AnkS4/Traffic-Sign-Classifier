@@ -48,6 +48,7 @@ I decided to generate additional data because ...
 To add more data to the the data set, I used the following techniques because ... 
 
 Here is an example of an original image and an augmented image:
+
 [image2]: trained0.png "Original Image from training data"
 ![alt text][image2]
 
