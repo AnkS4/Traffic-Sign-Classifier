@@ -30,7 +30,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart for training data (Class vs Number of Images) showing how the data is disributed across various classes
 
-[image1]: bar_chart.png "Training Image"
+[image1]: /images/bar_chart.png "Training Image"
 ![alt text][image1]
 
 ### Design and Model Architecture
@@ -45,19 +45,19 @@ Then, I normalized the images.
 
 Here is an example of an original image and augmented images:
 
-[image2]: trained0.png "Original Image from training data"
+[image2]: /images/trained0.png "Original Image from training data"
 ![alt text][image2]
 
-[image3]: transformed1.png "Transform 1"
+[image3]: /images/transformed1.png "Transform 1"
 ![alt text][image3]
 
-[image4]: transformed2.png "Transform 2"
+[image4]: /images/transformed2.png "Transform 2"
 ![alt text][image4]
 
-[image5]: transformed3.png "Transform 3"
+[image5]: /images/transformed3.png "Transform 3"
 ![alt text][image5]
 
-[image6]: transformed4.png "Transform 4"
+[image6]: /images/transformed4.png "Transform 4"
 ![alt text][image6]
 
 
@@ -108,22 +108,22 @@ The accuracy on my final model were:
 
 Here are six German traffic signs that I found on the web:
 
-[img1]: img1.jpg "MyTestImage 1"
+[img1]: /images/img1.jpg "MyTestImage 1"
 ![alt text][img1]
 
-[img2]: img2.jpg "MyTestImage 2"
+[img2]: /images/img2.jpg "MyTestImage 2"
 ![alt text][img2]
 
-[img3]: img3.jpg "MyTestImage 3"
+[img3]: /images/img3.jpg "MyTestImage 3"
 ![alt text][img3]
 
-[img4]: img4.jpg "MyTestImage 4"
+[img4]: /images/img4.jpg "MyTestImage 4"
 ![alt text][img4]
 
-[img5]: img5.jpg "MyTestImage 5"
+[img5]: /images/img5.jpg "MyTestImage 5"
 ![alt text][img5]
 
-[img6]: img6.jpg "MyTestImage 6"
+[img6]: /images/img6.jpg "MyTestImage 6"
 ![alt text][img6]
 
 #### 2. Model's predictions on new traffic signs:
